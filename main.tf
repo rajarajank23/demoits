@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "your-s3-bucket-name"
+    bucket         = "raja"
     key            = "terraform/statefile/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-lock-table"
