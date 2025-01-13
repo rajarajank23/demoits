@@ -1,11 +1,11 @@
-/*terraform {
+ terraform {
   backend "s3" {
     bucket         = "raja"
     key            = "state/terraform.tfstate"
     region         = "us-east-1"
 	dynamodb_table = "terraform-state-lock"
   }
-}*/
+}
 
 provider "aws" {
   region = "us-east-1"
